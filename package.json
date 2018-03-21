@@ -1,0 +1,14 @@
+{
+  "name": "lora-gateway-bridge-anonymise",
+  "author": {
+    "name" : "Wolfgang Nagele",
+    "email" : "mail@wnagele.com"
+  },
+  "license" : "MIT",
+  "version": "0.0.1",
+  "dependencies": {
+    "mqtt": "2.x",
+    "lora-packet": "0.7.x",
+    "json-mapper-json": "1.1.x"
+  }
+}
