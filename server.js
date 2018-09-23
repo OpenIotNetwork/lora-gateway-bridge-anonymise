@@ -65,6 +65,7 @@ client.on("message", function(topic, message) {
   try {
     mapper(JSON.parse(message.toString()), {
       "rxInfo": { path: "rxInfo" },
+      "txInfo": { path: "txInfo" },
       "anonymised": {
         path: "phyPayload",
         formatting: (raw) => {
